@@ -290,7 +290,7 @@ class ModifyAccessSerializer(serializers.Serializer):
             return value.lower() == 'true'
         return bool(value)
 
-     
+
 class CertificateStatusesSerializer(serializers.Serializer):
     """
     Serializer for validating and serializing certificate status inputs.
